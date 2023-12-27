@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2? family= Great+Vibes & family= Griffy & family= Rubik & family= Secular+One & family= Work+Sans:ital,wght@ 0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900 & display=swap' );
+
+@import url('https://fonts.googleapis.com/css2? family= Great+Vibes & family= Griffy & family= Rubik & family= Secular+One & family= Work+Sans:ital,wght@ 0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800 & display=swap' );
+h2{
+    color: hwb(240 34% 8%);
+    background-image: radial-gradient(circle, red 10%, rgb(205, 155, 163) 90%);
+}
+
+
+h1{
+    color: hsl(336, 100%, 49%);
+    font-family: 'Work sans', Arial, Helvetica, sans-serif;
+}
+
+p{
+    background-color: #8e8ed959;
+    color: rgb(250, 0, 100);
+}
+
+#did{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+div{
+    width: auto;
+    height: auto;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.ht{
+    color: rgb(4, 105, 0);
+}
+
+#solo{
+    color: rgb(53, 89, 0);
+}
+
+#gra{
+    color: black;
+}
+
+body{
+    background-image: linear-gradient(to right, red, orange);
+}
+
+.pra{
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 22px;
+    text-indent: 15px;
+}
+
+#dois{
+    background-image: linear-gradient(to left, #9d83da, #4f294a);
+    padding: 20px;
+}
+
+div{
+    border-radius: 20px;
+    box-shadow: 5px 5px 3px black;
+}
+
+#test{
+    font-weight: bolder;
+    text-decoration: underline;
+}
