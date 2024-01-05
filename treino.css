@@ -1,3 +1,7 @@
+:root{
+    font-size: 62.5%;
+}
+
 body{
     margin: none;
     background-color: #070C15;
@@ -40,7 +44,7 @@ a{
     margin-left: none;
     margin-right: none;
     padding: 40px;
-    font-size: 30px;
+    font-size: 3rem;
 }
 
 article > img{
@@ -61,7 +65,7 @@ h3{
     padding: 20px;
     margin-left: 25%;
     margin-right: 25%;
-    font-size: larger;
+    font-size: 2rem;
 }
 
 #form{
@@ -72,12 +76,18 @@ h3{
     justify-content: space-around;
     flex: wrap;
 }
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
 
 #form > p{
     font-size: small;
 }
 
 #buttons > a{
+    align-self: center;
     border-radius: 50%;
     padding: 12px;
     background-image: linear-gradient(to left, #07DCA0, #0E458A);
@@ -92,7 +102,6 @@ h3{
 
 .categorias{
     margin-left: 0px;
-    
 }
 #cat{
     color: #06f0ae;
@@ -128,4 +137,12 @@ h3{
 /*Só afeta o último atributo */
 .test2 h2 span{
     color: blue;
+}
+
+#btn{
+    border-radius: 30px;
+    position: fixed;
+    z-index: 1;
+    top: 70%;
+    margin-left: 8px;
 }
