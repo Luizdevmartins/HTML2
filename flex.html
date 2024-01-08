@@ -105,7 +105,9 @@
         <form action="example.html" method="get">
             <label for="firstname">First name</label>
             <br>
-            <input type="text" id="firstname" name="firstname" placeholder="Your first name">
+            <input type="text" id="firstname" name="firstname" placeholder="Your first name" required>
+            <input type="email" id="email" name="email" placeholder="e-mail">
+            <input type="password" id="pwd" name="pwd" placeholder="password">
             <br><br>
             <label for="message">Write something cool</label>
             <br>
@@ -114,11 +116,11 @@
             <!--Radio is the type for choosing things by little balls on side-->
             <label for="">Pick your eye color</label>
             <br>
-            <input type="radio" id="eyecolorblue" name="eyecolor">
+            <input type="radio" id="eyecolorblue" name="eyecolor" required>
             <label for="eyecolorblue">Blue</label>
-            <input type="radio" id="eyecolorbrown" name="eyecolor">
+            <input type="radio" id="eyecolorbrown" name="eyecolor" required>
             <label for="eyecolorbrown">Brown</label>
-            <input type="radio" id="eyecolorgreen" name="eyecolor">
+            <input type="radio" id="eyecolorgreen" name="eyecolor" required>
             <label for="eyecolorgreen">Green</label>
             <br><br>
 
@@ -129,10 +131,48 @@
             <input type="checkbox" id="petdog" name="petdog">
             <label for="petdog">Dog</label>
             <br><br>
-
-            
-
+            <label for="cartype">Car type you own?</label>
+            <select name="cartype" id="cartype">
+                <option value="none" required>None</option>
+                <option value="ford">Ford</option>
+                <option value="mustang">Mustang</option>
+                <option value="toyota">Toyota</option>
+            </select>
+            <br><br>
+            <button type="submit" value="submit">Submit</button>
         </form>
+
+        <video src="Basquete.mp4" class="my-video" controls autoplay muted >
+            <!-- <source src="Basquete.mp4" type="mp4">
+            <source src="" type="ogg">
+            <source src="" type="webm">
+            This is to guarantee that the if the browser can't play, it'll try other one-->>
+        </video>
+        <br>
+        <button onclick="playPause()">Play/Pause</button>
+        <button onclick="halfSize()">Half size</button>
+        <button onclick="normalSize()">Normal size</button>
     </section>
+
+    <script>
+        let myVideo = document.queryselector(".my-Video");
+        function playPause(){
+            if(myVideo.paused){
+                myVideo.play();
+            }
+            else{
+                myVideo.pause();
+            }
+        }
+
+        function halfSize(){
+            myVideo.width = "300";
+        }
+        function normalSize(){
+            myVideo.width = "600";
+        }
+
+    </script>
+
 </body>
 </html>

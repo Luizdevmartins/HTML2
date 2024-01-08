@@ -217,6 +217,11 @@ textarea{
     /*Se irá ser vetical, horizontal ou os dois*/
     resize: horizontal;
 }
+select{
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+}
 @media only screen and (max-width: 600px) and (orientation: landscape) {
     /*No mobile isso fará ficar responsivo*/
     .wrapper-main{
